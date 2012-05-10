@@ -6,7 +6,7 @@ require File.join(File.dirname(__FILE__), "lib", "lockdown")
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "lockdown"
+    gem.name = "patrick-lockdown"
     gem.version = Lockdown.version
     gem.summary = "Authorization system for Rails"
     gem.description = "Restrict access to your controller actions. "
