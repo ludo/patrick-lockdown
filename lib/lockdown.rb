@@ -24,7 +24,7 @@ module Lockdown
 
     # @return the version string for the library.
     def version
-      '2.0.4'
+      '2.0.4.1'
     end
 
     def rails_mixin
