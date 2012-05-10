@@ -8,10 +8,9 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "lockdown"
     gem.version = Lockdown.version
-    gem.rubyforge_project = "lockdown"
     gem.summary = "Authorization system for Rails"
     gem.description = "Restrict access to your controller actions. "
-    gem.email = "andy@stonean.com"
+    gem.email = "patrick.baselier@gmail.com"
     gem.homepage = "https://github.com/ludo/patrick-lockdown"
     gem.authors = ["Andrew Stone", "Patrick Baselier"]
   end

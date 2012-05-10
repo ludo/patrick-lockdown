@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ["Andrew Stone", "Patrick Baselier"]
   s.date = %q{2012-05-10}
   s.description = %q{Restrict access to your controller actions. }
-  s.email = %q{andy@stonean.com}
+  s.email = %q{patrick.baselier@gmail.com}
   s.extra_rdoc_files = [
     "README.md"
   ]
@@ -47,7 +47,6 @@ Gem::Specification.new do |s|
   ]
   s.homepage = %q{https://github.com/ludo/patrick-lockdown}
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{lockdown}
   s.rubygems_version = %q{1.5.2}
   s.summary = %q{Authorization system for Rails}
 
