@@ -1,0 +1,142 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Access	lib/lockdown/access.rb	/^  module Access$/;"	m	class:Lockdown
+ActiveRecord	lib/lockdown/orms/active_record.rb	/^    module ActiveRecord$/;"	m	class:Lockdown.Orms
+Configuration	lib/lockdown/configuration.rb	/^  module Configuration$/;"	m	class:Lockdown
+Controller	lib/lockdown/frameworks/rails/controller.rb	/^      module Controller$/;"	m	class:Lockdown.Frameworks.Rails
+Database	lib/lockdown/database.rb	/^  class Database$/;"	c	class:Lockdown
+Delivery	lib/lockdown/delivery.rb	/^  class Delivery$/;"	c	class:Lockdown
+Environment	lib/lockdown/frameworks/rails.rb	/^      module Environment$/;"	m	class:Lockdown.Frameworks
+Frameworks	lib/lockdown/frameworks/rails.rb	/^  module Frameworks$/;"	m	class:Lockdown
+Frameworks	lib/lockdown/frameworks/rails/controller.rb	/^  module Frameworks$/;"	m	class:Lockdown
+Frameworks	lib/lockdown/frameworks/rails/view.rb	/^  module Frameworks$/;"	m	class:Lockdown
+Helper	lib/lockdown/helper.rb	/^  module Helper$/;"	m	class:Lockdown
+Helper	lib/lockdown/orms/active_record.rb	/^      module Helper$/;"	m	class:Lockdown.Orms
+InvalidPermissionAssignment	lib/lockdown/errors.rb	/^  class InvalidPermissionAssignment < StandardError; end$/;"	c	class:Lockdown
+Lock	lib/lockdown/frameworks/rails/controller.rb	/^        module Lock$/;"	m	class:Lockdown.Frameworks.Rails.Controller
+Lockdown	lib/lockdown.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/access.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/configuration.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/database.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/delivery.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/errors.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/frameworks/rails.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/frameworks/rails/controller.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/frameworks/rails/view.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/helper.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/orms/active_record.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/permission.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/resource.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/session.rb	/^module Lockdown$/;"	m
+Lockdown	lib/lockdown/user_group.rb	/^module Lockdown$/;"	m
+Orms	lib/lockdown/orms/active_record.rb	/^  module Orms$/;"	m	class:Lockdown
+Permission	lib/lockdown/permission.rb	/^  class Permission$/;"	c	class:Lockdown
+PermissionNotFound	lib/lockdown/errors.rb	/^  class PermissionNotFound < StandardError; end$/;"	c	class:Lockdown
+Rails	lib/lockdown/frameworks/rails.rb	/^    module Rails$/;"	m	class:Lockdown.Frameworks
+Rails	lib/lockdown/frameworks/rails/controller.rb	/^    module Rails$/;"	m	class:Lockdown.Frameworks
+Rails	lib/lockdown/frameworks/rails/view.rb	/^    module Rails$/;"	m	class:Lockdown.Frameworks
+Resource	lib/lockdown/resource.rb	/^  class Resource$/;"	c	class:Lockdown
+Session	lib/lockdown/session.rb	/^  module Session$/;"	m	class:Lockdown
+Stamps	lib/lockdown/orms/active_record.rb	/^      module Stamps$/;"	m	class:Lockdown.Orms
+UserGroup	lib/lockdown/user_group.rb	/^  class UserGroup$/;"	c	class:Lockdown
+View	lib/lockdown/frameworks/rails/view.rb	/^      module View$/;"	m	class:Lockdown.Frameworks.Rails
+access_in_perm?	lib/lockdown/session.rb	/^    def access_in_perm?(name)$/;"	f	class:Lockdown.Session
+access_rights_for_permissions	lib/lockdown/configuration.rb	/^      def access_rights_for_permissions(*names)$/;"	f	class:Lockdown.Configuration
+access_rights_for_user	lib/lockdown/configuration.rb	/^      def access_rights_for_user(user)$/;"	f	class:Lockdown.Configuration
+add_lockdown_session_values	lib/lockdown/session.rb	/^    def add_lockdown_session_values(user = nil)$/;"	f	class:Lockdown.Session
+add_valid_permissions	lib/lockdown/database.rb	/^      def add_valid_permissions(ug)$/;"	f	class:Lockdown.Database
+administrator?	lib/lockdown/configuration.rb	/^      def administrator?(user)$/;"	f	class:Lockdown.Configuration
+administrator_group_name	lib/lockdown/helper.rb	/^    def administrator_group_name$/;"	f	class:Lockdown.Helper
+allowed?	lib/lockdown/delivery.rb	/^      def allowed?(path, access_rights = nil)$/;"	f	class:Lockdown.Delivery
+authenticated_access	lib/lockdown/configuration.rb	/^      def authenticated_access$/;"	f	class:Lockdown.Configuration
+authorized?	lib/lockdown/frameworks/rails/controller.rb	/^          def authorized?(url, method = nil)$/;"	f	class:Lockdown.Frameworks.Rails.Controller.Lock
+button_to_secured	lib/lockdown/frameworks/rails/view.rb	/^        def button_to_secured(name, options = {}, html_options = nil)$/;"	f	class:Lockdown.Frameworks.Rails.View
+caching?	lib/lockdown/frameworks/rails.rb	/^        def caching?$/;"	f	class:Lockdown.Frameworks.Environment
+check_request_authorization	lib/lockdown/frameworks/rails/controller.rb	/^          def check_request_authorization$/;"	f	class:Lockdown.Frameworks.Rails.Controller.Lock
+configure	lib/lockdown/access.rb	/^    def configure$/;"	f	class:Lockdown.Access
+configure_lockdown	lib/lockdown/frameworks/rails/controller.rb	/^          def configure_lockdown$/;"	f	class:Lockdown.Frameworks.Rails.Controller.Lock
+controller_parent	lib/lockdown/frameworks/rails.rb	/^        def controller_parent$/;"	f	class:Lockdown.Frameworks.Environment
+controllers	lib/lockdown/permission.rb	/^    def controllers$/;"	f	class:Lockdown.Permission
+create_new_permissions	lib/lockdown/database.rb	/^      def create_new_permissions$/;"	f	class:Lockdown.Database
+create_user_group	lib/lockdown/database.rb	/^      def create_user_group(name)$/;"	f	class:Lockdown.Database
+create_with_stamps	lib/lockdown/orms/active_record.rb	/^        def create_with_stamps$/;"	f	class:Lockdown.Orms.Stamps
+current_user_id	lib/lockdown/session.rb	/^    def current_user_id$/;"	f	class:Lockdown.Session
+current_who_did_it	lib/lockdown/orms/active_record.rb	/^        def current_who_did_it$/;"	f	class:Lockdown.Orms.Stamps
+database_execute	lib/lockdown/orms/active_record.rb	/^        def database_execute(query)$/;"	f	class:Lockdown.Orms.Helper
+database_query	lib/lockdown/orms/active_record.rb	/^        def database_query(query)$/;"	f	class:Lockdown.Orms.Helper
+database_table_exists?	lib/lockdown/orms/active_record.rb	/^        def database_table_exists?(klass)$/;"	f	class:Lockdown.Orms.Helper
+delete_extinct_permissions	lib/lockdown/database.rb	/^      def delete_extinct_permissions$/;"	f	class:Lockdown.Database
+except	lib/lockdown/resource.rb	/^    def except(*methods)$/;"	f	class:Lockdown
+find_or_create_user_group	lib/lockdown/configuration.rb	/^      def find_or_create_user_group(name)$/;"	f	class:Lockdown.Configuration
+has_permission?	lib/lockdown/configuration.rb	/^      def has_permission?(permission)$/;"	f	class:Lockdown.Configuration
+included	lib/lockdown/frameworks/rails.rb	/^        def included(mod)$/;"	f	class:Lockdown.Frameworks.Rails
+included	lib/lockdown/frameworks/rails/view.rb	/^        def self.included(base)$/;"	F	class:Lockdown.Frameworks.Rails.View
+included	lib/lockdown/orms/active_record.rb	/^        def included(mod)$/;"	f	class:Lockdown.Orms.ActiveRecord
+included	lib/lockdown/orms/active_record.rb	/^        def self.included(base)$/;"	F	class:Lockdown.Orms.Stamps
+initialize	lib/lockdown/permission.rb	/^    def initialize(name)$/;"	f	class:Lockdown.Permission
+initialize	lib/lockdown/resource.rb	/^    def initialize(name)$/;"	f	class:Lockdown
+initialize	lib/lockdown/user_group.rb	/^    def initialize(name)$/;"	f	class:Lockdown.UserGroup
+is_protected	lib/lockdown/permission.rb	/^    def is_protected$/;"	f	class:Lockdown.Permission
+is_public	lib/lockdown/permission.rb	/^    def is_public$/;"	f	class:Lockdown.Permission
+ld_access_denied	lib/lockdown/frameworks/rails/controller.rb	/^          def ld_access_denied(e)$/;"	f	class:Lockdown.Frameworks.Rails.Controller.Lock
+link_to_or_show	lib/lockdown/frameworks/rails/view.rb	/^        def link_to_or_show(name, options = {}, html_options = nil)$/;"	f	class:Lockdown.Frameworks.Rails.View
+link_to_secured	lib/lockdown/frameworks/rails/view.rb	/^        def link_to_secured(name, options = {}, html_options = nil)$/;"	f	class:Lockdown.Frameworks.Rails.View
+links	lib/lockdown/frameworks/rails/view.rb	/^        def links(*lis)$/;"	f	class:Lockdown.Frameworks.Rails.View
+logged_in?	lib/lockdown/session.rb	/^    def logged_in?$/;"	f	class:Lockdown.Session
+maintain_user_groups	lib/lockdown/database.rb	/^      def maintain_user_groups$/;"	f	class:Lockdown.Database
+make_permission_protected	lib/lockdown/configuration.rb	/^      def make_permission_protected(name)$/;"	f	class:Lockdown.Configuration
+make_permission_public	lib/lockdown/configuration.rb	/^      def make_permission_public(name)$/;"	f	class:Lockdown.Configuration
+make_user_administrator	lib/lockdown/configuration.rb	/^      def make_user_administrator(user)$/;"	f	class:Lockdown.Configuration
+maybe_add_user_group	lib/lockdown/configuration.rb	/^      def maybe_add_user_group(group)$/;"	f	class:Lockdown.Configuration
+mixin	lib/lockdown/frameworks/rails.rb	/^        def mixin$/;"	f	class:Lockdown.Frameworks.Rails
+mixin	lib/lockdown/orms/active_record.rb	/^        def mixin$/;"	f	class:Lockdown.Orms.ActiveRecord
+mixin_controller	lib/lockdown/frameworks/rails.rb	/^        def mixin_controller(klass = Lockdown.controller_parent)$/;"	f	class:Lockdown.Frameworks.Rails
+only	lib/lockdown/resource.rb	/^    def only(*methods)$/;"	f	class:Lockdown
+orm_parent	lib/lockdown/orms/active_record.rb	/^        def orm_parent$/;"	f	class:Lockdown.Orms.Helper
+path_from_hash	lib/lockdown/frameworks/rails/controller.rb	/^          def path_from_hash(hash)$/;"	f	class:Lockdown.Frameworks.Rails.Controller.Lock
+permission	lib/lockdown/access.rb	/^    def permission(name, &block)$/;"	f	class:Lockdown.Access
+permission	lib/lockdown/configuration.rb	/^      def permission(name)$/;"	f	class:Lockdown.Configuration
+permission_assigned_automatically?	lib/lockdown/configuration.rb	/^      def permission_assigned_automatically?(name)$/;"	f	class:Lockdown.Configuration
+permission_names	lib/lockdown/configuration.rb	/^      def permission_names$/;"	f	class:Lockdown.Configuration
+project_root	lib/lockdown/frameworks/rails.rb	/^        def project_root$/;"	f	class:Lockdown.Frameworks.Environment
+protected?	lib/lockdown/permission.rb	/^    def protected?$/;"	f	class:Lockdown.Permission
+protected_access	lib/lockdown/access.rb	/^    def protected_access(*permissions)$/;"	f	class:Lockdown.Access
+public?	lib/lockdown/permission.rb	/^    def public?$/;"	f	class:Lockdown.Permission
+public_access	lib/lockdown/access.rb	/^    def public_access(*permissions)$/;"	f	class:Lockdown.Access
+rails_mixin	lib/lockdown.rb	/^    def rails_mixin$/;"	f	class:Lockdown
+redirect_back_or_default	lib/lockdown/frameworks/rails/controller.rb	/^          def redirect_back_or_default(default)$/;"	f	class:Lockdown.Frameworks.Rails.Controller.Lock
+regex	lib/lockdown/helper.rb	/^    def regex(string)$/;"	f	class:Lockdown.Helper
+regex	lib/lockdown/resource.rb	/^      def regex$/;"	f	class:Lockdown.Resource
+regex_pattern	lib/lockdown/permission.rb	/^    def regex_pattern$/;"	f	class:Lockdown.Permission
+regexes	lib/lockdown/access.rb	/^    def regexes(permissions)$/;"	f	class:Lockdown.Access
+register_regex	lib/lockdown/resource.rb	/^      def register_regex(resource)$/;"	f	class:Lockdown.Resource
+remote_url?	lib/lockdown/frameworks/rails/controller.rb	/^          def remote_url?(domain = nil)$/;"	f	class:Lockdown.Frameworks.Rails.Controller.Lock
+remove_invalid_permissions	lib/lockdown/database.rb	/^      def remove_invalid_permissions(ug)$/;"	f	class:Lockdown.Database
+reset	lib/lockdown/configuration.rb	/^      def reset$/;"	f	class:Lockdown.Configuration
+reset_lockdown_session	lib/lockdown/session.rb	/^    def reset_lockdown_session$/;"	f	class:Lockdown.Session
+resource	lib/lockdown/permission.rb	/^    def resource(name, &block)$/;"	f	class:Lockdown.Permission
+sent_from_uri	lib/lockdown/frameworks/rails/controller.rb	/^          def sent_from_uri$/;"	f	class:Lockdown.Frameworks.Rails.Controller.Lock
+session_access_rights	lib/lockdown/session.rb	/^    def session_access_rights$/;"	f	class:Lockdown.Session
+set_current_user	lib/lockdown/frameworks/rails/controller.rb	/^          def set_current_user$/;"	f	class:Lockdown.Frameworks.Rails.Controller.Lock
+skip_sync	lib/lockdown/frameworks/rails.rb	/^            def self.skip_sync?$/;"	F	class:Lockdown.Frameworks.Rails.mixin
+skip_sync?	lib/lockdown/configuration.rb	/^      def skip_sync?$/;"	f	class:Lockdown.Configuration
+store_location	lib/lockdown/frameworks/rails/controller.rb	/^          def store_location$/;"	f	class:Lockdown.Frameworks.Rails.Controller.Lock
+sync_with_db	lib/lockdown/database.rb	/^      def sync_with_db$/;"	f	class:Lockdown.Database
+update_with_stamps	lib/lockdown/orms/active_record.rb	/^        def update_with_stamps$/;"	f	class:Lockdown.Orms.Stamps
+user_class	lib/lockdown/helper.rb	/^    def user_class$/;"	f	class:Lockdown.Helper
+user_group	lib/lockdown/access.rb	/^    def user_group(name, *permissions)$/;"	f	class:Lockdown.Access
+user_group	lib/lockdown/configuration.rb	/^      def user_group(name)$/;"	f	class:Lockdown.Configuration
+user_group_class	lib/lockdown/helper.rb	/^    def user_group_class$/;"	f	class:Lockdown.Helper
+user_group_id_reference	lib/lockdown/helper.rb	/^    def user_group_id_reference$/;"	f	class:Lockdown.Helper
+user_group_names	lib/lockdown/configuration.rb	/^      def user_group_names$/;"	f	class:Lockdown.Configuration
+user_group_permissions_names	lib/lockdown/configuration.rb	/^      def user_group_permissions_names(name)$/;"	f	class:Lockdown.Configuration
+user_groups_hbtm_reference	lib/lockdown/helper.rb	/^    def user_groups_hbtm_reference$/;"	f	class:Lockdown.Helper
+user_has_user_group?	lib/lockdown/configuration.rb	/^      def user_has_user_group?(user, name)$/;"	f	class:Lockdown.Configuration
+user_id_reference	lib/lockdown/helper.rb	/^    def user_id_reference$/;"	f	class:Lockdown.Helper
+users_hbtm_reference	lib/lockdown/helper.rb	/^    def users_hbtm_reference$/;"	f	class:Lockdown.Helper
+version	lib/lockdown.rb	/^    def version$/;"	f	class:Lockdown
+view_helper	lib/lockdown/frameworks/rails.rb	/^        def view_helper$/;"	f	class:Lockdown.Frameworks.Environment
